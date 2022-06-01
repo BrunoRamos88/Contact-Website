@@ -1,0 +1,72 @@
+
+body {
+    background: url("../assets/fundo.png");
+    background-size: 100%;
+    text-align: center;
+    color: var(--cor-dourada-principal);
+}
+
+.imagem {
+    width: 9rem;
+    border-radius: 150px;
+    border: 2px double var(--cor-dourada-secundaria);
+    margin-top: 10px;
+}
+
+.nome {
+    font-size: 2.5rem;
+    font-family: 'alonedark';
+    color: var(--cor-dourada-principal);
+    margin: 0;
+    margin-bottom: -10px;
+}
+
+.profissao {
+    font-size: 1.4rem;
+    font-family: 'somnium';
+    color: var(--cor-dourada-principal);
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.botao {
+    color: var(--cor-dourada-terciaria);
+    text-decoration: none;
+    background: rgba(233, 224, 98, 0.212);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    line-height: 35px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'somnium';
+    font-size: 1.2rem;
+    width: 200px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+}
+
+.botao:hover {
+    text-decoration: none;
+    background: var(--cor-dourada-quaternaria);
+    transition: background-color 0.8s ease-in-out;
+}
+
+.icone {
+    width: 20px;
+    margin-left: 20px;
+    margin-top: 6px;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.logo {
+    width: 80px;
+    margin-top: 40px;
+}
+
+
+
